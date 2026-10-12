@@ -1,0 +1,491 @@
+{
+  "diagramType": 1,
+  "data": {
+    "nodes": [
+      {
+        "id": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "type": "Entity",
+        "position": {
+          "x": 895,
+          "y": 365
+        },
+        "data": {
+          "label": "jogador",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false
+      },
+      {
+        "id": "f4c6a734-6e44-4e2d-b473-cdfd817bf933",
+        "parentId": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "nome",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false
+      },
+      {
+        "id": "2e33a310-d693-4572-9001-703701ab639b",
+        "parentId": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "id_jogador",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "b6d92dd8-6b2b-42b7-ab6b-1508556d9e96",
+        "parentId": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "type": "Attribute",
+        "position": {
+          "x": 142,
+          "y": -1
+        },
+        "data": {
+          "label": "data_nascimento",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "5190e841-0a0d-4aa7-8630-79625f475a8e",
+        "parentId": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "type": "Attribute",
+        "position": {
+          "x": 74.2462120245875,
+          "y": 74.24621202458748
+        },
+        "data": {
+          "label": "nacionalidade",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "30e63ade-d1be-4475-a86f-4dd028569d9c",
+        "parentId": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "type": "Attribute",
+        "position": {
+          "x": -29,
+          "y": 100
+        },
+        "data": {
+          "label": "posicao",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "b430ae59-6183-470d-9536-bb619bd77448",
+        "type": "Entity",
+        "position": {
+          "x": 1276,
+          "y": 278
+        },
+        "data": {
+          "label": "Clube",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "89c63f8b-4b64-4cd0-befc-5b3c13fb0c4d",
+        "parentId": "b430ae59-6183-470d-9536-bb619bd77448",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "id_clube",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "7eaa72b7-2761-4221-8c03-3eddd9b03f63",
+        "parentId": "b430ae59-6183-470d-9536-bb619bd77448",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "nome",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "e2df634a-0a58-4f98-bfca-f59cf22b3f09",
+        "parentId": "b430ae59-6183-470d-9536-bb619bd77448",
+        "type": "Attribute",
+        "position": {
+          "x": 105,
+          "y": -1.2858791391047208e-14
+        },
+        "data": {
+          "label": "cidade",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "6d2223d3-740d-4efe-9fde-fa7e5c9d3820",
+        "parentId": "b430ae59-6183-470d-9536-bb619bd77448",
+        "type": "Attribute",
+        "position": {
+          "x": 74.2462120245875,
+          "y": 74.24621202458748
+        },
+        "data": {
+          "label": "ano_fundacao",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "ebd995c2-7ded-46af-9736-4f62aa93fc07",
+        "type": "Entity",
+        "position": {
+          "x": 633,
+          "y": 211
+        },
+        "data": {
+          "label": "Epoca",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "2443933d-f96d-4e50-b657-c3626d59c30d",
+        "parentId": "ebd995c2-7ded-46af-9736-4f62aa93fc07",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "id_epoca",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "99746d2d-fd76-4d5d-8a3b-a9e1fd0bca43",
+        "parentId": "ebd995c2-7ded-46af-9736-4f62aa93fc07",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "ano_inicio",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "f08f3b5f-115b-47d4-962e-c4ac7843ff4b",
+        "parentId": "ebd995c2-7ded-46af-9736-4f62aa93fc07",
+        "type": "Attribute",
+        "position": {
+          "x": 105,
+          "y": -1.2858791391047208e-14
+        },
+        "data": {
+          "label": "ano_fim",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "type": "Entity",
+        "position": {
+          "x": 1012,
+          "y": 148
+        },
+        "data": {
+          "label": "Passagem",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "85487e13-80e4-4d01-b11b-0e78dc2fce62",
+        "parentId": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "id_passagem",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "3985d7e2-1909-44e9-8569-713ba571fd4d",
+        "parentId": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "jogos",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "213bc1d4-b9ea-4c89-a57e-1d0f13721f9e",
+        "parentId": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "type": "Attribute",
+        "position": {
+          "x": 105,
+          "y": -1.2858791391047208e-14
+        },
+        "data": {
+          "label": "golos",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "107930d3-cde3-41de-8abe-4a44bb7c7f5b",
+        "parentId": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "type": "Attribute",
+        "position": {
+          "x": 74.2462120245875,
+          "y": 74.24621202458748
+        },
+        "data": {
+          "label": "assistencias",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "db1ba78a-13cb-4e53-ab7f-6e0a970a9906",
+        "type": "Attribute",
+        "source": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "target": "f4c6a734-6e44-4e2d-b473-cdfd817bf933"
+      },
+      {
+        "id": "b97e4f14-eaab-4958-8ec1-2a4a04c67a1c",
+        "type": "Attribute",
+        "source": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "target": "2e33a310-d693-4572-9001-703701ab639b"
+      },
+      {
+        "id": "e7c21487-c57e-4f2b-84c4-98634db3d81d",
+        "type": "Attribute",
+        "source": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "target": "b6d92dd8-6b2b-42b7-ab6b-1508556d9e96"
+      },
+      {
+        "id": "60374020-477b-48ea-a3cc-d1716b2f5016",
+        "type": "Attribute",
+        "source": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "target": "5190e841-0a0d-4aa7-8630-79625f475a8e"
+      },
+      {
+        "id": "f31e4d22-3eaa-4a43-829a-1de07041269c",
+        "type": "Attribute",
+        "source": "4de04ed3-10f0-4ab1-ab3a-793b83dd54f9",
+        "target": "30e63ade-d1be-4475-a86f-4dd028569d9c"
+      },
+      {
+        "id": "9d268bea-7cfa-4503-932e-e4103c7c0118",
+        "type": "Attribute",
+        "source": "b430ae59-6183-470d-9536-bb619bd77448",
+        "target": "89c63f8b-4b64-4cd0-befc-5b3c13fb0c4d"
+      },
+      {
+        "id": "c8bbc12c-11b9-4211-a6d5-dd8b0af78fbc",
+        "type": "Attribute",
+        "source": "b430ae59-6183-470d-9536-bb619bd77448",
+        "target": "7eaa72b7-2761-4221-8c03-3eddd9b03f63"
+      },
+      {
+        "id": "440b3e65-a8d1-4ee2-ae03-1d7360c4ce39",
+        "type": "Attribute",
+        "source": "b430ae59-6183-470d-9536-bb619bd77448",
+        "target": "e2df634a-0a58-4f98-bfca-f59cf22b3f09"
+      },
+      {
+        "id": "3dacee9d-38a0-4a7f-8cc5-c034fcb8fe3e",
+        "type": "Attribute",
+        "source": "b430ae59-6183-470d-9536-bb619bd77448",
+        "target": "6d2223d3-740d-4efe-9fde-fa7e5c9d3820"
+      },
+      {
+        "id": "068d1cbc-bf8b-4f8a-9642-7d141b30480c",
+        "type": "Attribute",
+        "source": "ebd995c2-7ded-46af-9736-4f62aa93fc07",
+        "target": "2443933d-f96d-4e50-b657-c3626d59c30d"
+      },
+      {
+        "id": "cd555988-8ec8-47b7-a597-5521b11abddf",
+        "type": "Attribute",
+        "source": "ebd995c2-7ded-46af-9736-4f62aa93fc07",
+        "target": "99746d2d-fd76-4d5d-8a3b-a9e1fd0bca43"
+      },
+      {
+        "id": "b0e13220-380f-438e-a1a7-20bf98f25fd9",
+        "type": "Attribute",
+        "source": "ebd995c2-7ded-46af-9736-4f62aa93fc07",
+        "target": "f08f3b5f-115b-47d4-962e-c4ac7843ff4b"
+      },
+      {
+        "id": "bd9ea8ab-bb0f-4cde-8233-683b144b5a5c",
+        "type": "Attribute",
+        "source": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "target": "85487e13-80e4-4d01-b11b-0e78dc2fce62"
+      },
+      {
+        "id": "98fb5633-0e9d-409b-8e2e-a07dbe306c97",
+        "type": "Attribute",
+        "source": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "target": "3985d7e2-1909-44e9-8569-713ba571fd4d"
+      },
+      {
+        "id": "98d684b2-0368-46af-84db-e620575094c9",
+        "type": "Attribute",
+        "source": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "target": "213bc1d4-b9ea-4c89-a57e-1d0f13721f9e"
+      },
+      {
+        "id": "f67fff1b-522a-4cb0-838b-a4f05af80762",
+        "type": "Attribute",
+        "source": "c0ebed52-854c-4f78-9ef5-25f172da6a87",
+        "target": "107930d3-cde3-41de-8abe-4a44bb7c7f5b"
+      }
+    ],
+    "viewport": {
+      "x": -100.5,
+      "y": 94.5,
+      "zoom": 1
+    }
+  },
+  "name": "Futebol",
+  "folder": {
+    "name": "Diagrams",
+    "folderType": 1,
+    "depth": 0,
+    "id": 452333
+  },
+  "id": 635987,
+  "updatedAtTimestamp": 1790929008
+}
