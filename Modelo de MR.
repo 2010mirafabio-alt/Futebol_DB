@@ -1,0 +1,43 @@
+Table Jogador {
+  id_jogador int [pk, increment]
+  nome varchar(100) [not null]
+  data_nascimento date
+  nacionalidade varchar(50)
+  posicao varchar(30)
+}
+
+Table Clube {
+  id_clube int [pk, increment]
+  nome varchar(100) [not null]
+  cidade varchar(50)
+  ano_fundacao int
+}
+
+Table Epoca {
+  id_epoca int [pk, increment]
+  ano_inicio int [not null]
+  ano_fim int [not null]
+}
+
+Table Passagem {
+  id_passagem int [pk, increment]
+  id_jogador int [not null]
+  id_clube int [not null]
+  id_epoca int [not null]
+  jogos int
+  golos int
+  assistencias int
+}
+
+Table Avaliacao {
+  id_avaliacao int [pk, increment]
+  id_jogador int [not null]
+  nota decimal(4,2)
+  premios varchar(255)
+  observacoes text
+}
+
+Ref: Passagem.id_jogador > Jogador.id_jogador
+Ref: Passagem.id_clube > Clube.id_clube
+Ref: Passagem.id_epoca > Epoca.id_epoca
+Ref: Avaliacao.id_jogador > Jogador.id_jogador
